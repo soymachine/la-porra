@@ -5,5 +5,5 @@ window.PORRA_CONFIG = {
   owner: 'soymachine',
   repo: 'la-porra',
   branch: 'main',
-  encryptedToken: {"salt":"vx6oDx8mzXrUUd/F8AQjjA==","iv":"dMsNoIViBtsVdSYx","ct":"FLSJq3OIydS3mzRwaLc+m03k43qmt6HZn3gGOTvg6X7rDPi9dBORA6da/Z9kAI4gZWHgDkpcyDdtrEYylqAPW/8JlyR66c2xOLT5cZzcx64y7VKvWS2Oy2u0nZj73uQpZj1BYAvlM2HnnHv0eA=="},
+  encryptedToken: {"salt":"7R7t7i9I3fgdturkveO7Gg==","iv":"l3i2WzqqaZTBBZ3a","ct":"UVRN4IoBIwpja+EGmeHSsHzsDYMk20Z5ngiqGTzHQnwnvLAqvFFvl57cIGnHpp/vPoTyY7XoaiR02W3//2Lc8fQ7vMJ6zz5j9pEoobvU0GAIdpSt1Mgjlh0jJSuEpMe7bwgk4/dNn3X3Vt7LVw=="},
 };
