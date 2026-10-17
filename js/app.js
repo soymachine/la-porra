@@ -548,7 +548,7 @@
       <h2>Contraseña familiar</h2>
       <p class="small">Solo hace falta ponerla una vez en cada móvil u ordenador.</p>
       <label class="field">Contraseña<input type="password" name="pass" autocomplete="current-password" required autofocus></label>
-      <div class="btns"><button class="btn ghost small" value="cancel" formnovalidate>Solo mirar</button><button class="btn blue small" value="ok">Entrar</button></div>`,
+      <div class="btns"><button class="btn blue small" value="ok">Entrar</button><button class="btn ghost small" value="cancel" formnovalidate>Solo mirar</button></div>`,
     async (fd) => {
       if (!window.crypto?.subtle) throw new Error('Este navegador no permite descifrar la clave (hace falta abrir la web con https://).');
       let tok;
@@ -573,9 +573,9 @@
       </div>
       <label class="check"><input type="checkbox" name="final" ${sc.final || Date.now() > kick(f) + MATCH_MS ? 'checked' : ''}> El partido ha terminado</label>
       <div class="btns">
-        ${S.results[f.id] ? '<button class="btn ghost small" value="clear">Borrar</button>' : ''}
+        <button class="btn small" value="ok">Guardar</button>
         <button class="btn ghost small" value="cancel" formnovalidate>Cancelar</button>
-        <button class="btn small" value="ok">Guardar</button></div>`,
+        ${S.results[f.id] ? '<button class="btn ghost small" value="clear">Borrar</button>' : ''}</div>`,
     async (fd, action) => {
       const h = parseInt(fd.get('h'), 10), a = parseInt(fd.get('a'), 10), fin = !!fd.get('final');
       if (action !== 'clear' && (!(h >= 0) || !(a >= 0))) throw new Error('Pon un número válido');
@@ -604,7 +604,7 @@
       </div>
       <label class="check"><input type="checkbox" name="tbc" ${f.timeTbc ? 'checked' : ''}> La hora aún no es oficial</label>
       <label class="check"><input type="checkbox" name="cancelled" ${f.cancelled ? 'checked' : ''}> Este partido no se juega (eliminados, aplazado…)</label>
-      <div class="btns"><button class="btn ghost small" value="cancel" formnovalidate>Cancelar</button><button class="btn small" value="ok">Guardar</button></div>`,
+      <div class="btns"><button class="btn small" value="ok">Guardar</button><button class="btn ghost small" value="cancel" formnovalidate>Cancelar</button></div>`,
     async (fd) => {
       const upd = {
         home: fd.get('home').trim(), away: fd.get('away').trim(),

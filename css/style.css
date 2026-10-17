@@ -260,7 +260,8 @@ dialog::backdrop { background: rgba(10, 20, 40, .55); }
 .check { display: flex; gap: 8px; align-items: center; font-weight: 700; margin-bottom: 10px; font-size: 16px; }
 .check input { width: 22px; height: 22px; }
 .dlg .row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-.dlg .btns { display: flex; gap: 10px; justify-content: flex-end; margin-top: 8px; flex-wrap: wrap; }
+/* El botón principal va primero en el HTML (Intro en el teclado activa el primero) y se pinta a la derecha */
+.dlg .btns { display: flex; flex-direction: row-reverse; gap: 10px; justify-content: flex-start; margin-top: 8px; flex-wrap: wrap; }
 .err { color: #c0112f; font-weight: 700; font-size: 15px; min-height: 1.2em; }
 
 .toast {
