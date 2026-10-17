@@ -5,41 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>La Porra Blaugrana</title>
   <meta name="description" content="La porra del Barça de Rodolfo, Eric y Dani">
-  <meta name="theme-color" content="#004D98">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>">
+  <meta name="theme-color" content="#070d1f">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 36'><path d='M16 1 30 6v12c0 9-6.5 14.5-14 17C8.5 32.5 2 27 2 18V6Z' fill='%23A50044' stroke='%23f2c230' stroke-width='2'/><path d='M9 4v26M16 2v32M23 4v26' stroke='%23004D98' stroke-width='4'/></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Big+Shoulders+Display:wght@700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="stadium" aria-hidden="true"></div>
+
   <header class="top">
     <div class="brand">
-      <span class="ball">⚽</span>
+      <svg class="shield" viewBox="0 0 32 36" aria-hidden="true">
+        <defs><clipPath id="sh"><path d="M16 1 30 6v12c0 9-6.5 14.5-14 17C8.5 32.5 2 27 2 18V6Z"/></clipPath></defs>
+        <g clip-path="url(#sh)">
+          <rect width="32" height="36" fill="#A50044"/>
+          <path d="M9 0v36M16 0v36M23 0v36" stroke="#004D98" stroke-width="4"/>
+          <rect width="32" height="11" fill="#f2c230"/>
+          <path d="M16 0v11" stroke="#c4124f" stroke-width="3"/>
+        </g>
+        <path d="M16 1 30 6v12c0 9-6.5 14.5-14 17C8.5 32.5 2 27 2 18V6Z" fill="none" stroke="#f2c230" stroke-width="1.6"/>
+      </svg>
       <div>
-        <h1>La Porra Blaugrana</h1>
-        <p class="sub">Temporada 2026-27</p>
+        <h1>La Porra</h1>
+        <p class="sub">Blaugrana · 26/27</p>
       </div>
     </div>
     <button id="me-chip" class="me-chip" hidden></button>
   </header>
 
-  <nav class="tabs" id="tabs" hidden>
-    <button data-tab="partido" class="active">⚽ Partido</button>
-    <button data-tab="stats">🏆 Clasificación</button>
-    <button data-tab="calendario">📅 Calendario</button>
-  </nav>
-
   <main id="app">
-    <p class="loading">Cargando…</p>
+    <div class="skeleton" aria-label="Cargando">
+      <div class="sk sk-hero"></div><div class="sk sk-row"></div><div class="sk sk-row"></div>
+    </div>
   </main>
+
+  <nav class="tabs" id="tabs" hidden aria-label="Secciones">
+    <button data-tab="partido"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m12 7 4.5 3.3-1.7 5.2H9.2l-1.7-5.2Z"/><path d="M12 7V2M16.5 10.3l4.8-1.6M14.8 15.5l3 4M9.2 15.5l-3 4M7.5 10.3 2.7 8.7"/></svg><span>Partido</span></button>
+    <button data-tab="stats"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M4 22h16M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg><span>Clasificación</span></button>
+    <button data-tab="calendario"><svg viewBox="0 0 24 24" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Calendario</span></button>
+  </nav>
 
   <dialog id="dlg"></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-
-  <footer class="foot">
-    Hecho con 💙❤️ para Rodolfo, Eric y Dani · Visca el Barça!
-  </footer>
+  <canvas id="confetti" aria-hidden="true"></canvas>
 
   <script src="js/config.js"></script>
   <script src="js/scoring.js"></script>
