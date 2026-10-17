@@ -5,7 +5,8 @@
   "round": "Jornada 2",
   "home": "Elche",
   "away": "FC Barcelona",
-  "kickoff": "2026-08-23T21:30:00+02:00"
+  "kickoff": "2026-08-23T21:30:00+02:00",
+  "espnId": "401882913"
  },
  {
   "id": "laliga-j1",
@@ -13,7 +14,8 @@
   "round": "Jornada 1",
   "home": "FC Barcelona",
   "away": "Athletic Club",
-  "kickoff": "2026-08-27T21:00:00+02:00"
+  "kickoff": "2026-08-27T21:00:00+02:00",
+  "espnId": "401882921"
  },
  {
   "id": "laliga-j3",
@@ -21,8 +23,8 @@
   "round": "Jornada 3",
   "home": "FC Barcelona",
   "away": "Rayo Vallecano",
-  "kickoff": "2026-08-31T21:00:00+02:00",
-  "timeTbc": true
+  "kickoff": "2026-08-31T19:30:00.000Z",
+  "espnId": "401882903"
  },
  {
   "id": "laliga-j4",
@@ -30,8 +32,8 @@
   "round": "Jornada 4",
   "home": "Valencia",
   "away": "FC Barcelona",
-  "kickoff": "2026-09-06T21:00:00+02:00",
-  "timeTbc": true
+  "kickoff": "2026-09-06T14:15:00.000Z",
+  "espnId": "401882888"
  },
  {
   "id": "ucl-f1",
@@ -39,7 +41,8 @@
   "round": "Fase liga J1",
   "home": "FC Barcelona",
   "away": "Feyenoord",
-  "kickoff": "2026-09-09T18:45:00+02:00"
+  "kickoff": "2026-09-09T18:45:00+02:00",
+  "espnId": "401915424"
  },
  {
   "id": "laliga-j5",
@@ -47,7 +50,8 @@
   "round": "Jornada 5",
   "home": "Levante",
   "away": "FC Barcelona",
-  "kickoff": "2026-09-13T16:15:00+02:00"
+  "kickoff": "2026-09-13T16:15:00+02:00",
+  "espnId": "401882883"
  },
  {
   "id": "laliga-j6",
@@ -55,8 +59,8 @@
   "round": "Jornada 6",
   "home": "FC Barcelona",
   "away": "Racing de Santander",
-  "kickoff": "2026-09-16T21:00:00+02:00",
-  "timeTbc": true
+  "kickoff": "2026-09-16T19:30:00.000Z",
+  "espnId": "401882871"
  },
  {
   "id": "laliga-j7",
@@ -65,7 +69,7 @@
   "home": "Sevilla",
   "away": "FC Barcelona",
   "kickoff": "2026-09-19T21:00:00+02:00",
-  "timeTbc": true
+  "espnId": "401882859"
  },
  {
   "id": "laliga-j8",
@@ -73,8 +77,8 @@
   "round": "Jornada 8",
   "home": "FC Barcelona",
   "away": "Getafe",
-  "kickoff": "2026-10-10T21:00:00+02:00",
-  "timeTbc": true
+  "kickoff": "2026-10-10T16:30:00.000Z",
+  "espnId": "401882853"
  },
  {
   "id": "ucl-f2",
@@ -82,7 +86,8 @@
   "round": "Fase liga J2",
   "home": "Galatasaray",
   "away": "FC Barcelona",
-  "kickoff": "2026-10-13T21:00:00+02:00"
+  "kickoff": "2026-10-13T21:00:00+02:00",
+  "espnId": "401915435"
  },
  {
   "id": "laliga-j9",
@@ -90,7 +95,8 @@
   "round": "Jornada 9",
   "home": "Real Betis",
   "away": "FC Barcelona",
-  "kickoff": "2026-10-17T18:30:00+02:00"
+  "kickoff": "2026-10-17T18:30:00+02:00",
+  "espnId": "401882846"
  },
  {
   "id": "ucl-f3",
@@ -98,7 +104,8 @@
   "round": "Fase liga J3",
   "home": "PSG",
   "away": "FC Barcelona",
-  "kickoff": "2026-10-20T21:00:00+02:00"
+  "kickoff": "2026-10-20T21:00:00+02:00",
+  "espnId": "401915399"
  },
  {
   "id": "laliga-j10",
@@ -106,7 +113,8 @@
   "round": "Jornada 10",
   "home": "FC Barcelona",
   "away": "Real Madrid",
-  "kickoff": "2026-10-25T21:00:00+01:00"
+  "kickoff": "2026-10-25T21:00:00+01:00",
+  "espnId": "401882832"
  },
  {
   "id": "laliga-j11",
@@ -114,7 +122,8 @@
   "round": "Jornada 11",
   "home": "FC Barcelona",
   "away": "Alavés",
-  "kickoff": "2026-10-31T21:00:00+01:00"
+  "kickoff": "2026-10-31T21:00:00+01:00",
+  "espnId": "401882822"
  },
  {
   "id": "ucl-f4",
@@ -122,7 +131,8 @@
   "round": "Fase liga J4",
   "home": "FC Barcelona",
   "away": "Aston Villa",
-  "kickoff": "2026-11-03T21:00:00+01:00"
+  "kickoff": "2026-11-03T21:00:00+01:00",
+  "espnId": "401915387"
  },
  {
   "id": "laliga-j12",
@@ -131,8 +141,7 @@
   "home": "Atlético de Madrid",
   "away": "FC Barcelona",
   "kickoff": "2026-11-08T21:00:00+01:00",
-  "timeTbc": true,
-  "tentative": true
+  "espnId": "401882816"
  },
  {
   "id": "laliga-j13",
@@ -142,7 +151,8 @@
   "away": "Villarreal",
   "kickoff": "2026-11-22T21:00:00+01:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882804"
  },
  {
   "id": "ucl-f5",
@@ -150,7 +160,8 @@
   "round": "Fase liga J5",
   "home": "Sabah",
   "away": "FC Barcelona",
-  "kickoff": "2026-11-25T18:45:00+01:00"
+  "kickoff": "2026-11-25T18:45:00+01:00",
+  "espnId": "401915378"
  },
  {
   "id": "laliga-j14",
@@ -160,7 +171,8 @@
   "away": "FC Barcelona",
   "kickoff": "2026-11-29T21:00:00+01:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882794"
  },
  {
   "id": "laliga-j15",
@@ -170,7 +182,8 @@
   "away": "Celta",
   "kickoff": "2026-12-06T21:00:00+01:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882783"
  },
  {
   "id": "ucl-f6",
@@ -178,7 +191,8 @@
   "round": "Fase liga J6",
   "home": "FC Barcelona",
   "away": "Manchester City",
-  "kickoff": "2026-12-08T21:00:00+01:00"
+  "kickoff": "2026-12-08T21:00:00+01:00",
+  "espnId": "401915285"
  },
  {
   "id": "laliga-j16",
@@ -188,7 +202,8 @@
   "away": "FC Barcelona",
   "kickoff": "2026-12-13T21:00:00+01:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882770"
  },
  {
   "id": "copa-dieciseisavos",
@@ -208,7 +223,8 @@
   "away": "Real Sociedad",
   "kickoff": "2026-12-20T21:00:00+01:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882762"
  },
  {
   "id": "laliga-j18",
@@ -218,7 +234,8 @@
   "away": "FC Barcelona",
   "kickoff": "2027-01-03T21:00:00+01:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882754"
  },
  {
   "id": "copa-octavos",
@@ -238,7 +255,8 @@
   "away": "FC Barcelona",
   "kickoff": "2027-01-10T21:00:00+01:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882740"
  },
  {
   "id": "copa-cuartos",
@@ -258,7 +276,8 @@
   "away": "Elche",
   "kickoff": "2027-01-17T21:00:00+01:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882733"
  },
  {
   "id": "ucl-f7",
@@ -266,7 +285,8 @@
   "round": "Fase liga J7",
   "home": "Sporting CP",
   "away": "FC Barcelona",
-  "kickoff": "2027-01-20T21:00:00+01:00"
+  "kickoff": "2027-01-20T21:00:00+01:00",
+  "espnId": "401915356"
  },
  {
   "id": "laliga-j21",
@@ -276,7 +296,8 @@
   "away": "FC Barcelona",
   "kickoff": "2027-01-24T21:00:00+01:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882726"
  },
  {
   "id": "ucl-f8",
@@ -284,7 +305,8 @@
   "round": "Fase liga J8",
   "home": "FC Barcelona",
   "away": "Como",
-  "kickoff": "2027-01-27T21:00:00+01:00"
+  "kickoff": "2027-01-27T21:00:00+01:00",
+  "espnId": "401915264"
  },
  {
   "id": "laliga-j22",
@@ -294,7 +316,8 @@
   "away": "Valencia",
   "kickoff": "2027-01-31T21:00:00+01:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882713"
  },
  {
   "id": "super-semifinal",
@@ -302,7 +325,8 @@
   "round": "Semifinal (Estambul)",
   "home": "FC Barcelona",
   "away": "Atlético de Madrid",
-  "kickoff": "2027-02-02T20:00:00+01:00"
+  "kickoff": "2027-02-02T20:00:00+01:00",
+  "espnId": "401892163"
  },
  {
   "id": "super-final",
@@ -322,7 +346,8 @@
   "away": "Atlético de Madrid",
   "kickoff": "2027-02-07T21:00:00+01:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882700"
  },
  {
   "id": "copa-semifinal-ida",
@@ -342,7 +367,8 @@
   "away": "FC Barcelona",
   "kickoff": "2027-02-14T21:00:00+01:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882687"
  },
  {
   "id": "ucl-playoff-ida",
@@ -361,7 +387,8 @@
   "away": "Levante",
   "kickoff": "2027-02-21T21:00:00+01:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882681"
  },
  {
   "id": "ucl-playoff-vuelta",
@@ -380,7 +407,8 @@
   "away": "FC Barcelona",
   "kickoff": "2027-02-28T21:00:00+01:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882676"
  },
  {
   "id": "copa-semifinal-vuelta",
@@ -400,7 +428,8 @@
   "away": "Real Betis",
   "kickoff": "2027-03-07T21:00:00+01:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882661"
  },
  {
   "id": "ucl-octavos-ida",
@@ -419,7 +448,8 @@
   "away": "Deportivo",
   "kickoff": "2027-03-14T21:00:00+01:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882652"
  },
  {
   "id": "ucl-octavos-vuelta",
@@ -438,7 +468,8 @@
   "away": "FC Barcelona",
   "kickoff": "2027-03-21T21:00:00+01:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882641"
  },
  {
   "id": "laliga-j30",
@@ -448,7 +479,8 @@
   "away": "Sevilla",
   "kickoff": "2027-04-04T21:00:00+02:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882632"
  },
  {
   "id": "ucl-cuartos-ida",
@@ -467,7 +499,8 @@
   "away": "FC Barcelona",
   "kickoff": "2027-04-11T21:00:00+02:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882621"
  },
  {
   "id": "ucl-cuartos-vuelta",
@@ -486,7 +519,8 @@
   "away": "Espanyol",
   "kickoff": "2027-04-18T21:00:00+02:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882611"
  },
  {
   "id": "laliga-j33",
@@ -496,7 +530,8 @@
   "away": "FC Barcelona",
   "kickoff": "2027-04-21T21:00:00+02:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882605"
  },
  {
   "id": "copa-final",
@@ -525,7 +560,8 @@
   "away": "Osasuna",
   "kickoff": "2027-05-02T21:00:00+02:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882591"
  },
  {
   "id": "ucl-semifinal-vuelta",
@@ -544,7 +580,8 @@
   "away": "FC Barcelona",
   "kickoff": "2027-05-09T21:00:00+02:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882579"
  },
  {
   "id": "laliga-j36",
@@ -554,7 +591,8 @@
   "away": "FC Barcelona",
   "kickoff": "2027-05-16T21:00:00+02:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882568"
  },
  {
   "id": "laliga-j37",
@@ -564,7 +602,8 @@
   "away": "Málaga",
   "kickoff": "2027-05-23T21:00:00+02:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882562"
  },
  {
   "id": "laliga-j38",
@@ -574,7 +613,8 @@
   "away": "FC Barcelona",
   "kickoff": "2027-05-30T21:00:00+02:00",
   "timeTbc": true,
-  "tentative": true
+  "tentative": true,
+  "espnId": "401882552"
  },
  {
   "id": "ucl-final",
