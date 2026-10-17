@@ -1,0 +1,36 @@
+name: Sincronizar partidos (ESPN)
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-data
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Sincronizar
+        run: node scripts/sync-espn.mjs
+      - name: Guardar cambios
+        run: |
+          if git diff --quiet -- data; then echo "Nada que guardar"; exit 0; fi
+          git config user.name "porra-bot"
+          git config user.email "porra-bot@users.noreply.github.com"
+          git add data
+          git commit -m "Actualizar horarios/resultados desde ESPN"
+          for i in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push && exit 0
+            sleep 5
+          done
+          exit 1

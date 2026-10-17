@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Caricatura de Eric">
+  <defs><clipPath id="eb"><path d="M24 240 Q30 194 72 184 L128 184 Q170 194 176 240Z"/></clipPath></defs>
+  <g clip-path="url(#eb)">
+    <rect x="0" y="180" width="200" height="60" fill="#004D98"/>
+    <rect x="44" y="180" width="22" height="60" fill="#A50044"/>
+    <rect x="89" y="180" width="22" height="60" fill="#A50044"/>
+    <rect x="134" y="180" width="22" height="60" fill="#A50044"/>
+  </g>
+  <path d="M24 240 Q30 194 72 184 L128 184 Q170 194 176 240Z" fill="none" stroke="#2b1b10" stroke-width="3"/>
+  <path d="M84 160 L84 188 Q100 196 116 188 L116 160Z" fill="#E2A97F" stroke="#2b1b10" stroke-width="2.5"/>
+  <path d="M84 186 L100 200 L116 186" fill="none" stroke="#EDBB00" stroke-width="5"/>
+  <ellipse cx="44" cy="112" rx="12" ry="17" fill="#EDB58C" stroke="#2b1b10" stroke-width="3"/>
+  <ellipse cx="156" cy="112" rx="12" ry="17" fill="#EDB58C" stroke="#2b1b10" stroke-width="3"/>
+  <!-- cabeza -->
+  <path d="M100 30 C148 30 156 70 154 110 C152 152 128 178 100 178 C72 178 48 152 46 110 C44 70 52 30 100 30Z" fill="#F0BF95" stroke="#2b1b10" stroke-width="3"/>
+  <!-- barba de 3 días -->
+  <path d="M48 118 C52 160 76 178 100 178 C124 178 148 160 152 118 C146 140 134 150 122 152 C112 146 88 146 78 152 C66 150 54 140 48 118Z" fill="#7a6a5e" opacity=".55"/>
+  <!-- pelo castaño con canas -->
+  <path d="M46 96 C40 52 70 22 104 24 C140 26 162 52 154 96 C150 80 146 70 140 64 C120 70 90 66 74 56 C66 66 54 74 50 96Z" fill="#5b3a24" stroke="#2b1b10" stroke-width="3"/>
+  <path d="M46 96 C46 84 48 76 52 70 L56 92Z M154 96 C154 84 152 76 148 70 L144 92Z" fill="#b8b2ac"/>
+  <path d="M80 36 Q100 30 124 38" stroke="#b8b2ac" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- cejas -->
+  <path d="M64 90 Q76 82 90 88 M110 88 Q124 82 136 90" stroke="#3b2414" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- ojos -->
+  <ellipse cx="78" cy="104" rx="9" ry="10" fill="#fff" stroke="#2b1b10" stroke-width="2"/>
+  <ellipse cx="122" cy="104" rx="9" ry="10" fill="#fff" stroke="#2b1b10" stroke-width="2"/>
+  <circle cx="80" cy="106" r="5" fill="#3d6b3a"/><circle cx="120" cy="106" r="5" fill="#3d6b3a"/>
+  <circle cx="80" cy="106" r="2.5" fill="#111"/><circle cx="120" cy="106" r="2.5" fill="#111"/>
+  <circle cx="82" cy="104" r="1.5" fill="#fff"/><circle cx="122" cy="104" r="1.5" fill="#fff"/>
+  <path d="M66 116 Q72 120 78 118 M134 116 Q128 120 122 118" stroke="#c48d6a" stroke-width="2" fill="none"/>
+  <!-- nariz -->
+  <path d="M100 108 C96 120 92 130 96 134 C100 137 106 135 108 132" fill="none" stroke="#2b1b10" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- sonrisa -->
+  <path d="M78 146 Q100 168 122 146 Q100 154 78 146Z" fill="#fff" stroke="#2b1b10" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="66" cy="132" rx="8" ry="5" fill="#ff8f8f" opacity=".4"/><ellipse cx="134" cy="132" rx="8" ry="5" fill="#ff8f8f" opacity=".4"/>
+</svg>

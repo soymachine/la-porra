@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Caricatura de Dani">
+  <defs><clipPath id="db"><path d="M24 240 Q30 194 72 184 L128 184 Q170 194 176 240Z"/></clipPath></defs>
+  <g clip-path="url(#db)">
+    <rect x="0" y="180" width="200" height="60" fill="#A50044"/>
+    <rect x="30" y="180" width="20" height="60" fill="#004D98"/>
+    <rect x="70" y="180" width="20" height="60" fill="#004D98"/>
+    <rect x="110" y="180" width="20" height="60" fill="#004D98"/>
+    <rect x="150" y="180" width="20" height="60" fill="#004D98"/>
+  </g>
+  <path d="M24 240 Q30 194 72 184 L128 184 Q170 194 176 240Z" fill="none" stroke="#24160c" stroke-width="3"/>
+  <path d="M84 160 L84 188 Q100 196 116 188 L116 160Z" fill="#DDA276" stroke="#24160c" stroke-width="2.5"/>
+  <ellipse cx="44" cy="114" rx="12" ry="17" fill="#E8AE84" stroke="#24160c" stroke-width="3"/>
+  <ellipse cx="156" cy="114" rx="12" ry="17" fill="#E8AE84" stroke="#24160c" stroke-width="3"/>
+  <!-- cabeza más alargada -->
+  <path d="M100 34 C146 34 154 74 152 112 C150 154 126 182 100 182 C74 182 50 154 48 112 C46 74 54 34 100 34Z" fill="#EDB78C" stroke="#24160c" stroke-width="3"/>
+  <!-- pelo oscuro con tupé -->
+  <path d="M48 100 C38 56 60 18 100 14 C118 6 146 14 140 30 C160 42 160 72 152 100 C148 84 144 74 136 68 C118 74 96 72 80 62 C72 72 58 80 52 100Z" fill="#1f1712" stroke="#0e0905" stroke-width="3"/>
+  <path d="M92 20 Q112 12 132 24" stroke="#4a3a30" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- cejas -->
+  <path d="M62 90 Q76 80 92 88 M108 88 Q124 80 138 90" stroke="#1f1712" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- gafas rectangulares -->
+  <rect x="58" y="94" width="36" height="24" rx="6" fill="#fff" fill-opacity=".3" stroke="#004D98" stroke-width="4"/>
+  <rect x="106" y="94" width="36" height="24" rx="6" fill="#fff" fill-opacity=".3" stroke="#004D98" stroke-width="4"/>
+  <path d="M94 104 L106 104 M58 102 L46 100 M142 102 L154 100" stroke="#004D98" stroke-width="4"/>
+  <circle cx="77" cy="107" r="5" fill="#3b2414"/><circle cx="123" cy="107" r="5" fill="#3b2414"/>
+  <circle cx="79" cy="105" r="1.6" fill="#fff"/><circle cx="125" cy="105" r="1.6" fill="#fff"/>
+  <!-- nariz -->
+  <path d="M100 112 C94 126 90 134 96 138 C100 140 106 139 108 135" fill="none" stroke="#24160c" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- perilla / sombra barba -->
+  <path d="M86 168 Q100 180 114 168 Q100 172 86 168Z" fill="#1f1712" opacity=".7"/>
+  <!-- sonrisa grande -->
+  <path d="M74 146 Q100 176 126 146Z" fill="#7a1530" stroke="#24160c" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M78 148 L122 148 L119 154 L81 154Z" fill="#fff"/>
+  <path d="M90 164 Q100 158 110 164 Q100 170 90 164Z" fill="#ff7b8a"/>
+  <ellipse cx="64" cy="136" rx="8" ry="5" fill="#ff8f8f" opacity=".4"/><ellipse cx="136" cy="136" rx="8" ry="5" fill="#ff8f8f" opacity=".4"/>
+</svg>

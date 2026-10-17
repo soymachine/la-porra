@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Configurar La Porra</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top"><div class="brand"><span class="ball">⚙️</span><div><h1>Configurar La Porra</h1><p class="sub">Solo para el administrador</p></div></div></header>
+  <main>
+    <div class="card">
+      <h2>1. Crea un token de GitHub</h2>
+      <ol class="small">
+        <li>Ve a <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub → Fine-grained tokens → Generate new token</a>.</li>
+        <li>Nombre: <code>la-porra</code>. Caducidad: la máxima que te deje (p. ej. 1 año).</li>
+        <li><b>Repository access</b>: <i>Only select repositories</i> → <code>la-porra</code>.</li>
+        <li><b>Permissions → Repository permissions → Contents</b>: <i>Read and write</i>. Nada más.</li>
+        <li>Genera el token y cópialo (empieza por <code>github_pat_</code>).</li>
+      </ol>
+    </div>
+    <div class="card">
+      <h2>2. Cífralo con la contraseña familiar</h2>
+      <p class="small muted">El token nunca se publica en claro: se guarda cifrado (AES-256) y solo quien sepa la contraseña familiar puede usarlo. No distingue mayúsculas/minúsculas.</p>
+      <form id="f" class="dlg" style="padding:0">
+        <label class="field">Token de GitHub<input type="password" id="tok" required autocomplete="off"></label>
+        <label class="field">Contraseña familiar (algo fácil de recordar para los 3)<input type="text" id="pass" required autocomplete="off"></label>
+        <button class="btn blue">Comprobar y cifrar</button>
+        <p class="err" id="err"></p>
+      </form>
+    </div>
+    <div class="card" id="out" hidden>
+      <h2>3. Pega esto en <code>js/config.js</code></h2>
+      <p class="small">Sustituye la línea <code>encryptedToken: null,</code> por:</p>
+      <textarea id="code" readonly style="width:100%;height:120px;font-family:monospace;font-size:13px;border-radius:12px;padding:10px"></textarea>
+      <p class="small">Puedes editarlo directamente en GitHub (abre <code>js/config.js</code> → ✏️ → pega → <i>Commit changes</i>). En un minuto la web estará lista.</p>
+    </div>
+  </main>
+  <script src="js/config.js"></script>
+  <script>
+    const b64 = (bytes) => btoa(String.fromCharCode(...new Uint8Array(bytes)));
+    document.getElementById('f').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const err = document.getElementById('err');
+      err.textContent = '';
+      const tok = document.getElementById('tok').value.trim();
+      const pass = document.getElementById('pass').value.trim().toLowerCase();
+      const C = window.PORRA_CONFIG;
+      try {
+        const r = await fetch(`https://api.github.com/repos/${C.owner}/${C.repo}`, { headers: { Authorization: `Bearer ${tok}` } });
+        if (!r.ok) throw new Error(`El token no funciona (GitHub ${r.status})`);
+        const j = await r.json();
+        if (!j.permissions || !j.permissions.push) throw new Error('El token no tiene permiso de escritura (Contents: Read and write)');
+        const salt = crypto.getRandomValues(new Uint8Array(16));
+        const iv = crypto.getRandomValues(new Uint8Array(12));
+        const base = await crypto.subtle.importKey('raw', new TextEncoder().encode(pass), 'PBKDF2', false, ['deriveKey']);
+        const key = await crypto.subtle.deriveKey({ name: 'PBKDF2', salt, iterations: 250000, hash: 'SHA-256' }, base, { name: 'AES-GCM', length: 256 }, false, ['encrypt']);
+        const ct = await crypto.subtle.encrypt({ name: 'AES-GCM', iv }, key, new TextEncoder().encode(tok));
+        document.getElementById('code').value = `  encryptedToken: ${JSON.stringify({ salt: b64(salt), iv: b64(iv), ct: b64(ct) })},`;
+        document.getElementById('out').hidden = false;
+      } catch (ex) { err.textContent = ex.message; }
+    });
+  </script>
+</body>
+</html>

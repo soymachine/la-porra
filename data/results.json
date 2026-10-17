@@ -1,0 +1,72 @@
+{
+ "laliga-j2": {
+  "h": 0,
+  "a": 5,
+  "final": true,
+  "by": "histórico",
+  "at": "2026-10-17T17:44:12.918Z"
+ },
+ "laliga-j1": {
+  "h": 2,
+  "a": 0,
+  "final": true,
+  "by": "histórico",
+  "at": "2026-10-17T17:44:12.918Z"
+ },
+ "laliga-j3": {
+  "h": 5,
+  "a": 2,
+  "final": true,
+  "by": "histórico",
+  "at": "2026-10-17T17:44:12.918Z"
+ },
+ "laliga-j4": {
+  "h": 0,
+  "a": 5,
+  "final": true,
+  "by": "histórico",
+  "at": "2026-10-17T17:44:12.918Z"
+ },
+ "ucl-f1": {
+  "h": 5,
+  "a": 1,
+  "final": true,
+  "by": "histórico",
+  "at": "2026-10-17T17:44:12.918Z"
+ },
+ "laliga-j5": {
+  "h": 2,
+  "a": 4,
+  "final": true,
+  "by": "histórico",
+  "at": "2026-10-17T17:44:12.918Z"
+ },
+ "laliga-j6": {
+  "h": 7,
+  "a": 2,
+  "final": true,
+  "by": "histórico",
+  "at": "2026-10-17T17:44:12.918Z"
+ },
+ "laliga-j7": {
+  "h": 1,
+  "a": 3,
+  "final": true,
+  "by": "histórico",
+  "at": "2026-10-17T17:44:12.918Z"
+ },
+ "laliga-j8": {
+  "h": 3,
+  "a": 0,
+  "final": true,
+  "by": "histórico",
+  "at": "2026-10-17T17:44:12.918Z"
+ },
+ "ucl-f2": {
+  "h": 1,
+  "a": 4,
+  "final": true,
+  "by": "histórico",
+  "at": "2026-10-17T17:44:12.918Z"
+ }
+}

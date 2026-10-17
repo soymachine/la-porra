@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>La Porra Blaugrana</title>
+  <meta name="description" content="La porra del Barça de Rodolfo, Eric y Dani">
+  <meta name="theme-color" content="#004D98">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="ball">⚽</span>
+      <div>
+        <h1>La Porra Blaugrana</h1>
+        <p class="sub">Temporada 2026-27</p>
+      </div>
+    </div>
+    <button id="me-chip" class="me-chip" hidden></button>
+  </header>
+
+  <nav class="tabs" id="tabs" hidden>
+    <button data-tab="partido" class="active">⚽ Partido</button>
+    <button data-tab="stats">🏆 Clasificación</button>
+    <button data-tab="calendario">📅 Calendario</button>
+  </nav>
+
+  <main id="app">
+    <p class="loading">Cargando…</p>
+  </main>
+
+  <dialog id="dlg"></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <footer class="foot">
+    Hecho con 💙❤️ para Rodolfo, Eric y Dani · Visca el Barça!
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/scoring.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

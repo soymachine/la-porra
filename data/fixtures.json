@@ -1,0 +1,589 @@
+[
+ {
+  "id": "laliga-j2",
+  "competition": "LaLiga",
+  "round": "Jornada 2",
+  "home": "Elche",
+  "away": "FC Barcelona",
+  "kickoff": "2026-08-23T21:30:00+02:00"
+ },
+ {
+  "id": "laliga-j1",
+  "competition": "LaLiga",
+  "round": "Jornada 1",
+  "home": "FC Barcelona",
+  "away": "Athletic Club",
+  "kickoff": "2026-08-27T21:00:00+02:00"
+ },
+ {
+  "id": "laliga-j3",
+  "competition": "LaLiga",
+  "round": "Jornada 3",
+  "home": "FC Barcelona",
+  "away": "Rayo Vallecano",
+  "kickoff": "2026-08-31T21:00:00+02:00",
+  "timeTbc": true
+ },
+ {
+  "id": "laliga-j4",
+  "competition": "LaLiga",
+  "round": "Jornada 4",
+  "home": "Valencia",
+  "away": "FC Barcelona",
+  "kickoff": "2026-09-06T21:00:00+02:00",
+  "timeTbc": true
+ },
+ {
+  "id": "ucl-f1",
+  "competition": "Champions",
+  "round": "Fase liga J1",
+  "home": "FC Barcelona",
+  "away": "Feyenoord",
+  "kickoff": "2026-09-09T18:45:00+02:00"
+ },
+ {
+  "id": "laliga-j5",
+  "competition": "LaLiga",
+  "round": "Jornada 5",
+  "home": "Levante",
+  "away": "FC Barcelona",
+  "kickoff": "2026-09-13T16:15:00+02:00"
+ },
+ {
+  "id": "laliga-j6",
+  "competition": "LaLiga",
+  "round": "Jornada 6",
+  "home": "FC Barcelona",
+  "away": "Racing de Santander",
+  "kickoff": "2026-09-16T21:00:00+02:00",
+  "timeTbc": true
+ },
+ {
+  "id": "laliga-j7",
+  "competition": "LaLiga",
+  "round": "Jornada 7",
+  "home": "Sevilla",
+  "away": "FC Barcelona",
+  "kickoff": "2026-09-19T21:00:00+02:00",
+  "timeTbc": true
+ },
+ {
+  "id": "laliga-j8",
+  "competition": "LaLiga",
+  "round": "Jornada 8",
+  "home": "FC Barcelona",
+  "away": "Getafe",
+  "kickoff": "2026-10-10T21:00:00+02:00",
+  "timeTbc": true
+ },
+ {
+  "id": "ucl-f2",
+  "competition": "Champions",
+  "round": "Fase liga J2",
+  "home": "Galatasaray",
+  "away": "FC Barcelona",
+  "kickoff": "2026-10-13T21:00:00+02:00"
+ },
+ {
+  "id": "laliga-j9",
+  "competition": "LaLiga",
+  "round": "Jornada 9",
+  "home": "Real Betis",
+  "away": "FC Barcelona",
+  "kickoff": "2026-10-17T18:30:00+02:00"
+ },
+ {
+  "id": "ucl-f3",
+  "competition": "Champions",
+  "round": "Fase liga J3",
+  "home": "PSG",
+  "away": "FC Barcelona",
+  "kickoff": "2026-10-20T21:00:00+02:00"
+ },
+ {
+  "id": "laliga-j10",
+  "competition": "LaLiga",
+  "round": "Jornada 10",
+  "home": "FC Barcelona",
+  "away": "Real Madrid",
+  "kickoff": "2026-10-25T21:00:00+01:00"
+ },
+ {
+  "id": "laliga-j11",
+  "competition": "LaLiga",
+  "round": "Jornada 11",
+  "home": "FC Barcelona",
+  "away": "Alavés",
+  "kickoff": "2026-10-31T21:00:00+01:00"
+ },
+ {
+  "id": "ucl-f4",
+  "competition": "Champions",
+  "round": "Fase liga J4",
+  "home": "FC Barcelona",
+  "away": "Aston Villa",
+  "kickoff": "2026-11-03T21:00:00+01:00"
+ },
+ {
+  "id": "laliga-j12",
+  "competition": "LaLiga",
+  "round": "Jornada 12",
+  "home": "Atlético de Madrid",
+  "away": "FC Barcelona",
+  "kickoff": "2026-11-08T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "laliga-j13",
+  "competition": "LaLiga",
+  "round": "Jornada 13",
+  "home": "FC Barcelona",
+  "away": "Villarreal",
+  "kickoff": "2026-11-22T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "ucl-f5",
+  "competition": "Champions",
+  "round": "Fase liga J5",
+  "home": "Sabah",
+  "away": "FC Barcelona",
+  "kickoff": "2026-11-25T18:45:00+01:00"
+ },
+ {
+  "id": "laliga-j14",
+  "competition": "LaLiga",
+  "round": "Jornada 14",
+  "home": "Deportivo",
+  "away": "FC Barcelona",
+  "kickoff": "2026-11-29T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "laliga-j15",
+  "competition": "LaLiga",
+  "round": "Jornada 15",
+  "home": "FC Barcelona",
+  "away": "Celta",
+  "kickoff": "2026-12-06T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "ucl-f6",
+  "competition": "Champions",
+  "round": "Fase liga J6",
+  "home": "FC Barcelona",
+  "away": "Manchester City",
+  "kickoff": "2026-12-08T21:00:00+01:00"
+ },
+ {
+  "id": "laliga-j16",
+  "competition": "LaLiga",
+  "round": "Jornada 16",
+  "home": "Málaga",
+  "away": "FC Barcelona",
+  "kickoff": "2026-12-13T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "copa-dieciseisavos",
+  "competition": "Copa del Rey",
+  "round": "Dieciseisavos",
+  "home": "Por determinar",
+  "away": "FC Barcelona",
+  "kickoff": "2026-12-16T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "laliga-j17",
+  "competition": "LaLiga",
+  "round": "Jornada 17",
+  "home": "FC Barcelona",
+  "away": "Real Sociedad",
+  "kickoff": "2026-12-20T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "laliga-j18",
+  "competition": "LaLiga",
+  "round": "Jornada 18",
+  "home": "Espanyol",
+  "away": "FC Barcelona",
+  "kickoff": "2027-01-03T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "copa-octavos",
+  "competition": "Copa del Rey",
+  "round": "Octavos",
+  "home": "Por determinar",
+  "away": "FC Barcelona",
+  "kickoff": "2027-01-06T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "laliga-j19",
+  "competition": "LaLiga",
+  "round": "Jornada 19",
+  "home": "Osasuna",
+  "away": "FC Barcelona",
+  "kickoff": "2027-01-10T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "copa-cuartos",
+  "competition": "Copa del Rey",
+  "round": "Cuartos",
+  "home": "Por determinar",
+  "away": "FC Barcelona",
+  "kickoff": "2027-01-13T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "laliga-j20",
+  "competition": "LaLiga",
+  "round": "Jornada 20",
+  "home": "FC Barcelona",
+  "away": "Elche",
+  "kickoff": "2027-01-17T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "ucl-f7",
+  "competition": "Champions",
+  "round": "Fase liga J7",
+  "home": "Sporting CP",
+  "away": "FC Barcelona",
+  "kickoff": "2027-01-20T21:00:00+01:00"
+ },
+ {
+  "id": "laliga-j21",
+  "competition": "LaLiga",
+  "round": "Jornada 21",
+  "home": "Alavés",
+  "away": "FC Barcelona",
+  "kickoff": "2027-01-24T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "ucl-f8",
+  "competition": "Champions",
+  "round": "Fase liga J8",
+  "home": "FC Barcelona",
+  "away": "Como",
+  "kickoff": "2027-01-27T21:00:00+01:00"
+ },
+ {
+  "id": "laliga-j22",
+  "competition": "LaLiga",
+  "round": "Jornada 22",
+  "home": "FC Barcelona",
+  "away": "Valencia",
+  "kickoff": "2027-01-31T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "super-semifinal",
+  "competition": "Supercopa",
+  "round": "Semifinal (Estambul)",
+  "home": "FC Barcelona",
+  "away": "Atlético de Madrid",
+  "kickoff": "2027-02-02T20:00:00+01:00"
+ },
+ {
+  "id": "super-final",
+  "competition": "Supercopa",
+  "round": "Final (Estambul)",
+  "home": "FC Barcelona",
+  "away": "Por determinar",
+  "kickoff": "2027-02-06T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "laliga-j23",
+  "competition": "LaLiga",
+  "round": "Jornada 23",
+  "home": "FC Barcelona",
+  "away": "Atlético de Madrid",
+  "kickoff": "2027-02-07T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "copa-semifinal-ida",
+  "competition": "Copa del Rey",
+  "round": "Semifinal ida",
+  "home": "FC Barcelona",
+  "away": "Por determinar",
+  "kickoff": "2027-02-10T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "laliga-j24",
+  "competition": "LaLiga",
+  "round": "Jornada 24",
+  "home": "Villarreal",
+  "away": "FC Barcelona",
+  "kickoff": "2027-02-14T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "ucl-playoff-ida",
+  "competition": "Champions",
+  "round": "Play-off (solo si 9º-24º) ida",
+  "home": "FC Barcelona",
+  "away": "Por determinar",
+  "kickoff": "2027-02-16T21:00:00+01:00",
+  "tentative": true
+ },
+ {
+  "id": "laliga-j25",
+  "competition": "LaLiga",
+  "round": "Jornada 25",
+  "home": "FC Barcelona",
+  "away": "Levante",
+  "kickoff": "2027-02-21T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "ucl-playoff-vuelta",
+  "competition": "Champions",
+  "round": "Play-off (solo si 9º-24º) vuelta",
+  "home": "Por determinar",
+  "away": "FC Barcelona",
+  "kickoff": "2027-02-23T21:00:00+01:00",
+  "tentative": true
+ },
+ {
+  "id": "laliga-j26",
+  "competition": "LaLiga",
+  "round": "Jornada 26",
+  "home": "Athletic Club",
+  "away": "FC Barcelona",
+  "kickoff": "2027-02-28T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "copa-semifinal-vuelta",
+  "competition": "Copa del Rey",
+  "round": "Semifinal vuelta",
+  "home": "Por determinar",
+  "away": "FC Barcelona",
+  "kickoff": "2027-03-03T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "laliga-j27",
+  "competition": "LaLiga",
+  "round": "Jornada 27",
+  "home": "FC Barcelona",
+  "away": "Real Betis",
+  "kickoff": "2027-03-07T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "ucl-octavos-ida",
+  "competition": "Champions",
+  "round": "Octavos ida",
+  "home": "FC Barcelona",
+  "away": "Por determinar",
+  "kickoff": "2027-03-09T21:00:00+01:00",
+  "tentative": true
+ },
+ {
+  "id": "laliga-j28",
+  "competition": "LaLiga",
+  "round": "Jornada 28",
+  "home": "FC Barcelona",
+  "away": "Deportivo",
+  "kickoff": "2027-03-14T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "ucl-octavos-vuelta",
+  "competition": "Champions",
+  "round": "Octavos vuelta",
+  "home": "Por determinar",
+  "away": "FC Barcelona",
+  "kickoff": "2027-03-16T21:00:00+01:00",
+  "tentative": true
+ },
+ {
+  "id": "laliga-j29",
+  "competition": "LaLiga",
+  "round": "Jornada 29",
+  "home": "Rayo Vallecano",
+  "away": "FC Barcelona",
+  "kickoff": "2027-03-21T21:00:00+01:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "laliga-j30",
+  "competition": "LaLiga",
+  "round": "Jornada 30",
+  "home": "FC Barcelona",
+  "away": "Sevilla",
+  "kickoff": "2027-04-04T21:00:00+02:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "ucl-cuartos-ida",
+  "competition": "Champions",
+  "round": "Cuartos ida",
+  "home": "FC Barcelona",
+  "away": "Por determinar",
+  "kickoff": "2027-04-06T21:00:00+02:00",
+  "tentative": true
+ },
+ {
+  "id": "laliga-j31",
+  "competition": "LaLiga",
+  "round": "Jornada 31",
+  "home": "Racing de Santander",
+  "away": "FC Barcelona",
+  "kickoff": "2027-04-11T21:00:00+02:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "ucl-cuartos-vuelta",
+  "competition": "Champions",
+  "round": "Cuartos vuelta",
+  "home": "Por determinar",
+  "away": "FC Barcelona",
+  "kickoff": "2027-04-13T21:00:00+02:00",
+  "tentative": true
+ },
+ {
+  "id": "laliga-j32",
+  "competition": "LaLiga",
+  "round": "Jornada 32",
+  "home": "FC Barcelona",
+  "away": "Espanyol",
+  "kickoff": "2027-04-18T21:00:00+02:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "laliga-j33",
+  "competition": "LaLiga",
+  "round": "Jornada 33",
+  "home": "Celta",
+  "away": "FC Barcelona",
+  "kickoff": "2027-04-21T21:00:00+02:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "copa-final",
+  "competition": "Copa del Rey",
+  "round": "Final (La Cartuja, Sevilla)",
+  "home": "FC Barcelona",
+  "away": "Por determinar",
+  "kickoff": "2027-04-24T21:00:00+02:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "ucl-semifinal-ida",
+  "competition": "Champions",
+  "round": "Semifinal ida",
+  "home": "FC Barcelona",
+  "away": "Por determinar",
+  "kickoff": "2027-04-27T21:00:00+02:00",
+  "tentative": true
+ },
+ {
+  "id": "laliga-j34",
+  "competition": "LaLiga",
+  "round": "Jornada 34",
+  "home": "FC Barcelona",
+  "away": "Osasuna",
+  "kickoff": "2027-05-02T21:00:00+02:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "ucl-semifinal-vuelta",
+  "competition": "Champions",
+  "round": "Semifinal vuelta",
+  "home": "Por determinar",
+  "away": "FC Barcelona",
+  "kickoff": "2027-05-04T21:00:00+02:00",
+  "tentative": true
+ },
+ {
+  "id": "laliga-j35",
+  "competition": "LaLiga",
+  "round": "Jornada 35",
+  "home": "Real Madrid",
+  "away": "FC Barcelona",
+  "kickoff": "2027-05-09T21:00:00+02:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "laliga-j36",
+  "competition": "LaLiga",
+  "round": "Jornada 36",
+  "home": "Real Sociedad",
+  "away": "FC Barcelona",
+  "kickoff": "2027-05-16T21:00:00+02:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "laliga-j37",
+  "competition": "LaLiga",
+  "round": "Jornada 37",
+  "home": "FC Barcelona",
+  "away": "Málaga",
+  "kickoff": "2027-05-23T21:00:00+02:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "laliga-j38",
+  "competition": "LaLiga",
+  "round": "Jornada 38",
+  "home": "Getafe",
+  "away": "FC Barcelona",
+  "kickoff": "2027-05-30T21:00:00+02:00",
+  "timeTbc": true,
+  "tentative": true
+ },
+ {
+  "id": "ucl-final",
+  "competition": "Champions",
+  "round": "Final (Metropolitano, Madrid)",
+  "home": "FC Barcelona",
+  "away": "Por determinar",
+  "kickoff": "2027-06-05T21:00:00+02:00",
+  "timeTbc": true,
+  "tentative": true
+ }
+]
