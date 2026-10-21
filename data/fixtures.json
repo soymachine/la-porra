@@ -149,9 +149,7 @@
   "round": "Jornada 13",
   "home": "FC Barcelona",
   "away": "Villarreal",
-  "kickoff": "2026-11-22T21:00:00+01:00",
-  "timeTbc": true,
-  "tentative": true,
+  "kickoff": "2026-11-22T13:00:00.000Z",
   "espnId": "401882804"
  },
  {
