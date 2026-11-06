@@ -167,10 +167,17 @@
   "round": "Jornada 14",
   "home": "Deportivo",
   "away": "FC Barcelona",
-  "kickoff": "2026-11-29T21:00:00+01:00",
-  "timeTbc": true,
-  "tentative": true,
+  "kickoff": "2026-11-29T15:15:00.000Z",
   "espnId": "401882794"
+ },
+ {
+  "id": "laliga-j23",
+  "competition": "LaLiga",
+  "round": "Jornada 23",
+  "home": "FC Barcelona",
+  "away": "Atlético de Madrid",
+  "kickoff": "2026-12-02T20:30:00.000Z",
+  "espnId": "401882700"
  },
  {
   "id": "laliga-j15",
@@ -335,17 +342,6 @@
   "kickoff": "2027-02-06T21:00:00+01:00",
   "timeTbc": true,
   "tentative": true
- },
- {
-  "id": "laliga-j23",
-  "competition": "LaLiga",
-  "round": "Jornada 23",
-  "home": "FC Barcelona",
-  "away": "Atlético de Madrid",
-  "kickoff": "2027-02-07T21:00:00+01:00",
-  "timeTbc": true,
-  "tentative": true,
-  "espnId": "401882700"
  },
  {
   "id": "copa-semifinal-ida",
