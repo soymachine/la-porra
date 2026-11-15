@@ -185,9 +185,7 @@
   "round": "Jornada 15",
   "home": "FC Barcelona",
   "away": "Celta",
-  "kickoff": "2026-12-06T21:00:00+01:00",
-  "timeTbc": true,
-  "tentative": true,
+  "kickoff": "2026-12-05T20:00:00.000Z",
   "espnId": "401882783"
  },
  {
