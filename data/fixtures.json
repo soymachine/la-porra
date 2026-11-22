@@ -150,7 +150,8 @@
   "round": "Fase liga J5",
   "home": "Sabah",
   "away": "FC Barcelona",
-  "kickoff": "2026-11-25T18:45:00+01:00"
+  "kickoff": "2026-11-25T17:45:00.000Z",
+  "manual": true
  },
  {
   "id": "laliga-j14",
